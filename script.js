@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const pageData = {
             story: {
                 title: "The Story of the Stars",
-                image: "https://static.wikia.nocookie.net/capcomdatabase/images/3/3e/StarForce3Art.png/revision/latest?cb=20091125161305", // Image URL for Story
+                image: "https://static.wikia.nocookie.net/capcomdatabase/images/3/3e/StarForce3Art.png", // Image URL for Story
                 content: `
                     <p>Mega Man Star Force 3 takes place a few months after the previous game. A massive meteor, labeled "Meteor G," is on a collision course with Earth. Inside this meteor is a gigantic source of "Noise" and a powerful, corrupt EM-being named Crimson.</p>
                     <p>The Satella Police and their advanced branch, the WAZA, are working to stop the meteor. Geo Stelar and his partner Omega-Xis (as Mega Man) find themselves at the center of the conflict, battling Noise-changed viruses and rogue Wizards. Geo must master the power of Noise to confront Crimson and save the planet from annihilation.</p>
@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
             },
             gameplay: {
                 title: "Gameplay & Noise Change",
-                image: "https://static.wikia.nocookie.net/megaman/images/b/b6/Cygnus_Noise_Meteor_Light_Barrage.png/revision/latest?cb=20180119225218", // Image URL for Gameplay
+                image: "https://static.wikia.nocookie.net/megaman/images/b/b6/Cygnus_Noise_Meteor_Light_Barrage.png", // Image URL for Gameplay
                 content: `
                     <p>The game retains the fast-paced, 3x5 grid battle system from its predecessors. The most significant new feature is the "Noise Change" system. As Mega Man fights, his Noise percentage increases.</p>
                     <p>At 50% Noise, he can randomly undergo a Noise Change, fusing with the data of a defeated FM-ian boss. This grants him new elemental abilities, a unique charged shot, and access to powerful "Noise Force Big Bang" attacks. There are over 10 different Noise Forms to discover, adding immense strategic depth and replayability.</p>
@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
             },
             versions: {
                 title: "Black Ace & Red Joker",
-                image: "https://static.wikia.nocookie.net/megaman/images/a/a3/MMSF3_Logos.png/revision/latest/scale-to-width-down/1000?cb=20200131154026", // Image URL for Versions
+                image: "https://static.wikia.nocookie.net/megaman/images/a/a3/MMSF3_Logos.png", // Image URL for Versions
                 content: `
                     <p>Like many Mega Man games, Star Force 3 was released in two versions: <b>Black Ace</b> and <b>Red Joker</b>.</p>
                     <ul>
@@ -126,3 +126,4 @@ document.addEventListener('DOMContentLoaded', () => {
         setInterval(updateClock, 1000);
 
     });
+
