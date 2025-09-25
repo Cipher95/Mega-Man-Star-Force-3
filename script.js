@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
             },
             gameplay: {
                 title: "Gameplay & Noise Change",
-                image: "https://static.wikia.nocookie.net/megaman/images/b/b6/Cygnus_Noise_Meteor_Light_Barrage.png", // Image URL for Gameplay
+                image: "https://static.wikitide.net/megamanwiki/b/b6/Cygnus_Noise_Meteor_Light_Barrage.png", // Image URL for Gameplay
                 content: `
                     <p>The game retains the fast-paced, 3x5 grid battle system from its predecessors. The most significant new feature is the "Noise Change" system. As Mega Man fights, his Noise percentage increases.</p>
                     <p>At 50% Noise, he can randomly undergo a Noise Change, fusing with the data of a defeated FM-ian boss. This grants him new elemental abilities, a unique charged shot, and access to powerful "Noise Force Big Bang" attacks. There are over 10 different Noise Forms to discover, adding immense strategic depth and replayability.</p>
@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
             },
             versions: {
                 title: "Black Ace & Red Joker",
-                image: "https://static.wikia.nocookie.net/megaman/images/a/a3/MMSF3_Logos.png", // Image URL for Versions
+                image: "https://upload.wikimedia.org/wikipedia/fr/6/67/Mega_Man_Star_Force_3_Logo.png", // Image URL for Versions
                 content: `
                     <p>Like many Mega Man games, Star Force 3 was released in two versions: <b>Black Ace</b> and <b>Red Joker</b>.</p>
                     <ul>
@@ -126,4 +126,5 @@ document.addEventListener('DOMContentLoaded', () => {
         setInterval(updateClock, 1000);
 
     });
+
 
