@@ -82,7 +82,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         versions: {
             title: "ブラックエースとレッドジョーカー",
-            image: "https://upload.wikimedia.org/wikipedia/fr/6/67/Mega_Man_Star_Force_3_Logo.png",
+            image: "https://static.mercdn.net/item/detail/orig/photos/m69558035108_1.jpg",
             content: `
                 <p>多くのロックマンゲームと同様に、『流星のロックマン3』は<b>ブラックエース</b>と<b>レッドジョーカー</b>の2つのバージョンでリリースされました。</p>
                 <ul>
