@@ -17,7 +17,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     color: var(--text-color);
-    background-image: url('https://static.wikia.nocookie.net/capcomdatabase/images/9/9a/MMSF3Group.png'); /* Background Image */
+    background-image: url('MMSF3Group.webp'); /* Background Image */
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
