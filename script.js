@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const pageDataEN = {
         story: {
             title: "The Story of the Stars",
-            image: "https://static.wikia.nocookie.net/capcomdatabase/images/3/3e/StarForce3Art.png",
+            image: "StarForce3Art.webp",
             content: `
                 <p>Mega Man Star Force 3 takes place a few months after the previous game. A massive meteor, labeled "Meteor G," is on a collision course with Earth. Inside this meteor is a gigantic source of "Noise" and a powerful, corrupt EM-being named Crimson.</p>
                 <p>The Satella Police and their advanced branch, the WAZA, are working to stop the meteor. Geo Stelar and his partner Omega-Xis (as Mega Man) find themselves at the center of the conflict, battling Noise-changed viruses and rogue Wizards. Geo must master the power of Noise to confront Crimson and save the planet from annihilation.</p>
@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const pageDataJP = {
         story: {
             title: "星々の物語",
-            image: "https://static.wikia.nocookie.net/capcomdatabase/images/3/3e/StarForce3Art.png",
+            image: "StarForce3Art.webp",
             content: `
                 <p>『流星のロックマン3』は、前作から数ヶ月後の物語。巨大な隕石「メテオG」が地球との衝突コースにある。この隕石の内部には、巨大な「ノイズ」の源と、強力で邪悪な電波体「クリムゾン」が存在する。</p>
                 <p>サテラポリスとその先進部隊であるWAZAは、隕石を止めるために活動している。星河スバルと彼のパートナー、ウォーロック（ロックマンとして）は、ノイズに変化したウイルスや不正なウィザードとの戦いの中心に身を置くことになる。スバルはノイズの力をマスターし、クリムゾンに立ち向かい、地球を壊滅から救わなければならない。</p>
