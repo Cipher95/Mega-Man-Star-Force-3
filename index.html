@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="https://www.sprites-inc.co.uk/files/Classic/Anniversaries/20th.png">
+    <title>Mega Man Star Force 3</title>
+
+    <!-- Google Fonts for a futuristic feel -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="lang-selector">
+        <h1 id="lang-choose-title">Choose Your Language</h1>
+        <div class="lang-buttons">
+            <button class="lang-btn" data-lang="en">English</button>
+            <button class="lang-btn" data-lang="jp">日本語</button>
+        </div>
+    </div>
+
+    <div class="container" id="main-container" style="display: none;">
+        <header>
+            <div class="title">
+                <h1 id="main-title">Mega Man Star Force 3</h1>
+            </div>
+            <div class="datetime">
+                <div id="clock"></div>
+                <div id="date-day"></div>
+            </div>
+        </header>
+
+        <nav>
+            <a href="#" class="nav-link active" data-page="story" id="nav-story">Story</a>
+            <a href="#" class="nav-link" data-page="characters" id="nav-characters">Characters</a>
+            <a href="#" class="nav-link" data-page="gameplay" id="nav-gameplay">Gameplay</a>
+            <a href="#" class="nav-link" data-page="versions" id="nav-versions">Versions</a>
+        </nav>
+
+        <main id="content-area">
+            <!-- JavaScript will inject content here -->
+        </main>
+
+        <footer>
+            <p id="footer-text">Website created for demonstration purposes. Mega Man Star Force is a property of Capcom.</p>
+        </footer>
+    </div>
+    <!-- Added audio player for background music -->
+    <audio id="bg-music" loop>
+        <source src="23 - Club Strong Stage.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    
+    <!-- Back to Top Button -->
+    <button id="back-to-top-btn" title="Go to top">▲</button>
+    
+    <script src="script.js"></script>
+
+</body>
+</html>
